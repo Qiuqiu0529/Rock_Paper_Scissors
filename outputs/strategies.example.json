@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "均匀策略",
+      "count": 40,
+      "probabilities": {"rock": 0.3333333333333333, "scissors": 0.3333333333333333, "paper": 0.3333333333333333}
+    },
+    {
+      "name": "偏剪刀",
+      "count": 30,
+      "probabilities": {"rock": 0.2, "scissors": 0.6, "paper": 0.2}
+    },
+    {
+      "name": "偏石头",
+      "count": 30,
+      "probabilities": {"rock": 0.6, "scissors": 0.2, "paper": 0.2}
+    }
+  ]
+}

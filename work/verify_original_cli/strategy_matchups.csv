@@ -1,0 +1,2 @@
+﻿strategy,opponent_strategy,win_rate,draw_rate,loss_rate,non_draw_win_rate,expected_points_per_game
+统一策略,统一策略,0.0,1.0,0.0,,1.0

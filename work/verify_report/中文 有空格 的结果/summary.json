@@ -1,0 +1,257 @@
+{
+  "config": {
+    "name": "中文 </script><script>globalThis.__rpsInjected=1</script> & < > \" '",
+    "seed": 877,
+    "runs": 2,
+    "groups": [
+      {
+        "name": "<img src=x onerror=\"globalThis.__rpsInjected=2\">",
+        "count": 2,
+        "strategy": {
+          "type": "fixed",
+          "reset_each_stage": true,
+          "hand": "scissors"
+        },
+        "stage_strategies": {}
+      },
+      {
+        "name": "纸牌组",
+        "count": 2,
+        "strategy": {
+          "type": "cycle",
+          "reset_each_stage": true,
+          "sequence": [
+            "paper",
+            "rock",
+            "scissors"
+          ],
+          "offset": 0
+        },
+        "stage_strategies": {}
+      }
+    ],
+    "scoring": {
+      "win": "1E+100",
+      "draw": "0.1",
+      "loss": "-0.02",
+      "hand_bonus": {
+        "rock": "0",
+        "scissors": "1E-100",
+        "paper": "0"
+      }
+    },
+    "tie_breakers": [
+      "wins",
+      "random"
+    ],
+    "stages": [
+      {
+        "name": "<svg onload=\"globalThis.__rpsInjected=3\">决赛",
+        "rounds": 3,
+        "advance": 1,
+        "reset_scores": true,
+        "scoring": {
+          "win": "1E+100",
+          "draw": "0.1",
+          "loss": "-0.02",
+          "hand_bonus": {
+            "rock": "0",
+            "scissors": "1E-100",
+            "paper": "0"
+          }
+        },
+        "tie_breakers": [
+          "wins",
+          "random"
+        ]
+      }
+    ]
+  },
+  "players": 4,
+  "final_qualifiers": 1,
+  "rounds_per_tournament": 3,
+  "matches_per_tournament": 6,
+  "first_tournament_winners": [
+    {
+      "rank": 1,
+      "qualified": true,
+      "player_id": "P002",
+      "group": "<img src=x onerror=\"globalThis.__rpsInjected=2\">",
+      "stage": 1,
+      "stage_name": "<svg onload=\"globalThis.__rpsInjected=3\">决赛",
+      "stage_rank": 1,
+      "strategy_type": "fixed",
+      "stage_points": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003",
+      "stage_games": 3,
+      "stage_wins": 1,
+      "stage_draws": 2,
+      "stage_losses": 0,
+      "stage_rock_count": 0,
+      "stage_scissors_count": 3,
+      "stage_paper_count": 0,
+      "ranking_points": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003",
+      "ranking_games": 3,
+      "ranking_wins": 1,
+      "ranking_draws": 2,
+      "ranking_losses": 0,
+      "ranking_rock_count": 0,
+      "ranking_scissors_count": 3,
+      "ranking_paper_count": 0,
+      "total_points": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003",
+      "total_games": 3,
+      "total_wins": 1,
+      "total_draws": 2,
+      "total_losses": 0,
+      "total_rock_count": 0,
+      "total_scissors_count": 3,
+      "total_paper_count": 0
+    }
+  ],
+  "groups": [
+    {
+      "group": "<img src=x onerror=\"globalThis.__rpsInjected=2\">",
+      "strategy_type": "fixed",
+      "players": 2,
+      "runs": 2,
+      "qualifications": 2,
+      "qualification_rate": 0.5,
+      "average_overall_rank": 1.5,
+      "average_total_points": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003",
+      "average_games": 3.0,
+      "total_points": "40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012",
+      "total_games": 12,
+      "total_wins": 4,
+      "total_draws": 8,
+      "total_losses": 0,
+      "total_rock_count": 0,
+      "total_scissors_count": 12,
+      "total_paper_count": 0,
+      "win_rate": 0.3333333333333333,
+      "draw_rate": 0.6666666666666666,
+      "loss_rate": 0.0,
+      "non_draw_win_rate": 1.0,
+      "rock_rate": 0.0,
+      "scissors_rate": 1.0,
+      "paper_rate": 0.0
+    },
+    {
+      "group": "纸牌组",
+      "strategy_type": "cycle",
+      "players": 2,
+      "runs": 2,
+      "qualifications": 0,
+      "qualification_rate": 0.0,
+      "average_overall_rank": 3.5,
+      "average_total_points": "0.1800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+      "average_games": 3.0,
+      "total_points": "0.7200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004",
+      "total_games": 12,
+      "total_wins": 0,
+      "total_draws": 8,
+      "total_losses": 4,
+      "total_rock_count": 4,
+      "total_scissors_count": 4,
+      "total_paper_count": 4,
+      "win_rate": 0.0,
+      "draw_rate": 0.6666666666666666,
+      "loss_rate": 0.3333333333333333,
+      "non_draw_win_rate": 0.0,
+      "rock_rate": 0.3333333333333333,
+      "scissors_rate": 0.3333333333333333,
+      "paper_rate": 0.3333333333333333
+    }
+  ],
+  "stage_summary": [
+    {
+      "scope": "all",
+      "group": "",
+      "stage": 1,
+      "stage_name": "<svg onload=\"globalThis.__rpsInjected=3\">决赛",
+      "entries": 8,
+      "advances": 2,
+      "reach_rate": 1.0,
+      "advance_rate": 0.25,
+      "average_stage_rank": 2.5,
+      "average_stage_points": "5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.1900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002",
+      "average_ranking_points": "5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.1900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002",
+      "total_points": "40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001.5200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016",
+      "total_games": 24,
+      "total_wins": 4,
+      "total_draws": 16,
+      "total_losses": 4,
+      "total_rock_count": 4,
+      "total_scissors_count": 16,
+      "total_paper_count": 4,
+      "win_rate": 0.16666666666666666,
+      "draw_rate": 0.6666666666666666,
+      "loss_rate": 0.16666666666666666,
+      "non_draw_win_rate": 0.5,
+      "rock_rate": 0.16666666666666666,
+      "scissors_rate": 0.6666666666666666,
+      "paper_rate": 0.16666666666666666
+    },
+    {
+      "scope": "group",
+      "group": "<img src=x onerror=\"globalThis.__rpsInjected=2\">",
+      "stage": 1,
+      "stage_name": "<svg onload=\"globalThis.__rpsInjected=3\">决赛",
+      "entries": 4,
+      "advances": 2,
+      "reach_rate": 1.0,
+      "advance_rate": 0.5,
+      "average_stage_rank": 1.5,
+      "average_stage_points": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003",
+      "average_ranking_points": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003",
+      "total_points": "40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012",
+      "total_games": 12,
+      "total_wins": 4,
+      "total_draws": 8,
+      "total_losses": 0,
+      "total_rock_count": 0,
+      "total_scissors_count": 12,
+      "total_paper_count": 0,
+      "win_rate": 0.3333333333333333,
+      "draw_rate": 0.6666666666666666,
+      "loss_rate": 0.0,
+      "non_draw_win_rate": 1.0,
+      "rock_rate": 0.0,
+      "scissors_rate": 1.0,
+      "paper_rate": 0.0
+    },
+    {
+      "scope": "group",
+      "group": "纸牌组",
+      "stage": 1,
+      "stage_name": "<svg onload=\"globalThis.__rpsInjected=3\">决赛",
+      "entries": 4,
+      "advances": 0,
+      "reach_rate": 1.0,
+      "advance_rate": 0.0,
+      "average_stage_rank": 3.5,
+      "average_stage_points": "0.1800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+      "average_ranking_points": "0.1800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+      "total_points": "0.7200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004",
+      "total_games": 12,
+      "total_wins": 0,
+      "total_draws": 8,
+      "total_losses": 4,
+      "total_rock_count": 4,
+      "total_scissors_count": 4,
+      "total_paper_count": 4,
+      "win_rate": 0.0,
+      "draw_rate": 0.6666666666666666,
+      "loss_rate": 0.3333333333333333,
+      "non_draw_win_rate": 0.0,
+      "rock_rate": 0.3333333333333333,
+      "scissors_rate": 0.3333333333333333,
+      "paper_rate": 0.3333333333333333
+    }
+  ],
+  "record_scope": "rankings, stage_rankings, matches, rounds describe only the first tournament; other summaries cover all runs",
+  "score_scope": {
+    "stage_points": "earned in this stage",
+    "ranking_points": "earned since the last score reset",
+    "total_points": "earned in all played stages, including stages cleared from ranking"
+  },
+  "decimal_scores": "Decimal values are written as strings to preserve exact decimal values"
+}

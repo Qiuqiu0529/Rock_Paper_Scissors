@@ -1,0 +1,2 @@
+﻿strategy,players,runs,qualifications,qualification_rate,average_rank,average_points,actual_scissors_rate,configured_rock_probability,configured_scissors_probability,configured_paper_probability
+统一策略,100,1,10,0.1,50.5,158.21,0.5980808080808082,0.2,0.6,0.2
