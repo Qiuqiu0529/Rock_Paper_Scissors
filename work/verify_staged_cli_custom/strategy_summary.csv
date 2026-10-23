@@ -1,2 +1,0 @@
-﻿strategy,players,runs,prelim_qualifications,prelim_qualification_rate,qualifications,qualification_rate,conditional_final_qualification_rate,average_rank,average_prelim_points,average_final_points,average_total_points,average_games,actual_scissors_rate,configured_rock_probability,configured_scissors_probability,configured_paper_probability
-统一策略,100,3,60,0.2,30,0.1,0.5,50.5,14.0,38.0,21.6,10.8,1.0,0.0,1.0,0.0
